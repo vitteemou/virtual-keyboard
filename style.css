@@ -1,0 +1,65 @@
+.main {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.input--container {
+  width: 90%;
+  height: 200px;
+  margin: 50px auto;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+}
+
+.keyboard--container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.keyboard--row {
+  display: flex;
+} 
+
+.keyboard--item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 15px;
+  margin: 5px;
+
+  background-color: #39414e;
+  color: #FFFFFF;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.keyboard--item-functional {
+  background-color: #222222;
+  color: #FFFFFFAA;
+}
+
+.keyboard--item-small {
+  flex-grow: 1;
+}
+
+.keyboard--item-medium {
+  flex-grow: 1.5;
+}
+
+.keyboard--item-large {
+  flex-grow: 2;
+}
+
+.keyboard--item-xxxlarge {
+  flex-grow: 6;
+}
+
+.keyboard--item-active {
+  background-color: purple;
+  color: #FFFFFFAA;
+}
